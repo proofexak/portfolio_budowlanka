@@ -1,0 +1,7 @@
+.container
+  .description
+    Info o budowie
+  .images 
+    .flex.flex-row.flex-wrap.max-w-lg
+      - 3.times do |i|
+        = image_tag "projekt#{@id}/projekt#{@id}-#{i + 1}.jpg"
